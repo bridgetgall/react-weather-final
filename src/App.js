@@ -8,6 +8,7 @@ function App() {
         <a
           href="https://github.com/bridgetgall/react-weather-final"
           target="_blank"
+          rel="noreferrer noopener"
         >
           open-sourced.
         </a>
