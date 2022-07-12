@@ -29,15 +29,19 @@ footer {
   list-style: none;
 }
 
-.Weather img {
+.Weather canvas {
   display: inline-block;
-  margin-top: -30px;
-  margin-left: -10px;
+  margin-left: 0px;
 }
 
 .Weather .temperature {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
   font-size: 60px;
-  margin: 0 5px 0 5px;
+  line-height: 64px;
+  margin-left: 5px;
+  font-weight: 400;
+  margin-left: 10px;
 }
 
 .Weather .unit {
