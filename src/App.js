@@ -1,9 +1,12 @@
-import "./App.css";
+import Weather from "./Weather";
+import React from "react";
+import "./Weather.css";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
+        <Weather />
         <footer>
           This project was coded by Bridget Gallagher and is{" "}
           <a
@@ -11,7 +14,7 @@ function App() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            open-sourced.
+            open-sourced
           </a>
         </footer>
       </div>
